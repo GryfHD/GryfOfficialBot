@@ -8,7 +8,7 @@ bot.on('ready', function (){
     console.log(`Connecté sous le nom de Gryf_Bot!`);
 });
 
-bot.login("NTA2MDUyODQyNDcwMTEzMjkx.Drc9zw.Xk_dvTofQztvnDTSuICP7f7wO0I")
+bot.login(process.env.TOKEN)
 
 
 bot.on('message', message =>{
